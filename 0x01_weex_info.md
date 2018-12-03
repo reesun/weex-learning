@@ -9,6 +9,7 @@ Weex 官方提供了 weex-toolkit 的脚手架工具来辅助开发和调试。
   更多安装方式可参考 [Node.js官方信息](https://nodejs.org/en/download/)
 
   安装完成后，可以使用以下命令检测是否安装成功：
+  
   ![node info](resource/node_version.png)
 
   通常，安装了 Node.js 环境，npm 包管理工具也随之安装了。因此，直接使用 npm 来安装 weex-toolkit。
