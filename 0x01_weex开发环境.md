@@ -18,12 +18,10 @@ Weex 官方提供了 weex-toolkit 的脚手架工具来辅助开发和调试。
   $ weex -v //查看当前weex版本
   ```
 
-  查看weex-cli是否安装成功
+  查看weex-cli是否安装成功：
 
   ![weex info](resource/weex_info.png)
-2. 安装相关依赖
 
-
-安装完成后，可以使用以下命令检测是否安装成功
+ß2. 安装相关依赖
 
 #
