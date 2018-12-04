@@ -17,11 +17,18 @@
 ![Weex架构图](resource/weex_execute_flow_0.png)
 
 
-## 二、Weex总体结构
+## 二、基本思路
+![weex-pre](resource/weex_pre.png)
+
+基于JS <-> Native的基本架构如下：
+
+![js-arch](resource/js_arch.png)
+
+## 三、Weex总体结构
 
 ![](resource/weex_app_architecture.png)
 
-## 三、 常见概念简介
+## 四、 常见概念简介
 
 - Weex源文件: .we 或 .vue文件
 - JS Bundle: 由weex源文件经过transformer([webpack](https://webpack.github.io/))转化生成的.js文件
