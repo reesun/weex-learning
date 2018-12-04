@@ -104,9 +104,11 @@ Weex默认是单页面效果，也就是Android中一个Activity的概念，而�
 
 如上图，参考<font color=red>entry.js</font>文件，创建一个SecondPageEntry.js，作为SecondPage.vue的入口，用于webpack生成SecondPage.js页面。
  什么？webpack没听说过怎么办，No problem，你只需简单的修改，一知半解完全可以胜任。如下图，我们主要需要修改<font color=red>webpack.common.conf.js</font>文件，
+ 
  ![webpack_common_config.png](resource/webpack_common_config.png)
 
 可以看出，<font color=red>webpack.common.conf.js</font>中，其实是区分了<font color=red>webConfig</font>和<font color=red>weexConfig</font>的不同打包方式。如下图，其中<font color=red>weexEntry</font>就是我们需要修改的地方，可以看到本来已经有index和entry.js存在了。
+
 ![weex_entry.png](resource/weex_entry.png)
 
 最后我们需要通过navigator来实现跳转，我们需要知道，要跳转的js文件在哪里，如下代码演示，如何实现navigotor的native跳转，完整兼容三端跳转请移步demo项目。
